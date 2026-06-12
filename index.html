@@ -97,6 +97,7 @@ nav a:hover{
     border:none;
     cursor:pointer;
     transition:0.3s;
+    margin:10px;
 }
 
 .btn:hover{
@@ -201,6 +202,27 @@ nav a:hover{
 .workflow-arrow{
     font-size:1.5rem;
     color:#3B82F6;
+}
+
+.cta-section{
+    padding:80px 8%;
+    text-align:center;
+    background:linear-gradient(135deg, rgba(16,185,129,0.15) 0%, rgba(59,130,246,0.15) 100%);
+}
+
+.cta-section h2{
+    font-size:2.5rem;
+    margin-bottom:20px;
+    color:#10B981;
+}
+
+.cta-section p{
+    max-width:700px;
+    margin:auto;
+    color:#CBD5E1;
+    line-height:1.8;
+    margin-bottom:30px;
+    font-size:1.1rem;
 }
 
 .waitlist{
@@ -311,6 +333,11 @@ footer{
     .workflow-arrow{
         transform:rotate(90deg);
     }
+    
+    .btn{
+        padding:12px 20px;
+        font-size:0.9rem;
+    }
 }
 </style>
 </head>
@@ -342,7 +369,10 @@ footer{
         using the power of artificial intelligence.
     </p>
 
-    <a href="#waitlist" class="btn">Get Early Access</a>
+    <div>
+        <a href="#waitlist" class="btn">Get Early Access</a>
+        <a href="story-studio.html" class="btn btn-secondary">Try Story Studio</a>
+    </div>
 
 </section>
 
@@ -400,7 +430,26 @@ footer{
         One story generates dozens of pieces of content.
     </p>
 
-    <a href="#waitlist" class="btn btn-secondary" style="margin-top:20px;">Generate My Story</a>
+    <a href="story-studio.html" class="btn btn-secondary" style="margin-top:20px;">Generate My Story ✨</a>
+
+</section>
+
+<section class="cta-section" id="try-now">
+
+    <h2>🌏 Ashes & Spirits Series</h2>
+
+    <p>
+        Experience the first AI Story Studio series: "Ashes & Spirits"—
+        200 episodes set during the 1994 Rabaul eruption in Papua New Guinea.
+        Fictional stories grounded in real history, featuring survival, romance,
+        and spiritual journeys during one of the Pacific's greatest disasters.
+    </p>
+
+    <p style="font-size:0.95rem; color:#A0AEC0;">
+        <strong>Try it now:</strong> Visit our interactive Story Studio generator and create your own episode.
+    </p>
+
+    <a href="story-studio.html" class="btn btn-secondary">Start Generating Stories</a>
 
 </section>
 
